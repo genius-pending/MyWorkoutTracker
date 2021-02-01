@@ -1,60 +1,55 @@
 const router = require("express").Router();
-const Workout = require("../models/workoutschema.js");
+const Workout = require("../models/workout.js");
 
-
-router.post("/api/workout", (req, res) => {
-  Workout.create({})
-    .then(dbWorkout => {
-      res.json(dbWorkout);
-    })
-    .catch(err => {
-      res.json(err);
-    });
-});
-
-router.put("/api/workout/:id", ({ body, params }, res) => {
-  Workout.findByIdAndUpdate(
-    params.id,
-    { $push: { exercises: body } },
-    // make sure any new exercises added are valid fields in the database.
-    { new: true, runValidators: true }
-  )
-    .then(dbWorkout => {
-      res.json(dbWorkout);
-    })
-    .catch(err => {
-      res.json(err);
-    });
-});
-
-router.get("/api/workout", (req, res) => {
+// Get last workout
+router.get("/api/workouts", (req, res) => {
   Workout.find()
     .then(dbWorkout => {
       res.json(dbWorkout);
     })
     .catch(err => {
-      res.json(err);
+      res.status(500).json(err);
     });
 });
 
-router.get("/api/workout/range", (req, res) => {
-  Workout.find({}).limit()
+// add exercise to workout
+router.put("/api/workouts/:id", (req, res) => {
+  console.log(req.body);
+  Workout.findByIdAndUpdate(req.params.id, {
+      $push: {
+        exercises: req.body
+      }
+    })
     .then(dbWorkout => {
-      console.log(dbWorkout)
       res.json(dbWorkout);
     })
     .catch(err => {
-      res.json(err);
+      res.status(500).json(err);
     });
 });
 
-router.delete("/api/workout", ({ body }, res) => {
-  Workout.findByIdAndDelete(body.id)
-    .then(() => {
-      res.json(true);
+// create a workout
+router.post("/api/workouts", (req, res) => {
+  Workout.create(req.body)
+    .then(dbWorkout => {
+      res.json(dbWorkout);
     })
     .catch(err => {
-      res.json(err);
+      res.status(500).json(err);
+    });
+});
+
+// get workouts to create stats page
+router.get("/api/workouts/range", (req, res) => {
+  Workout.find({})
+    .sort("-day")
+    .limit(7)
+    .then(dbWorkout => {
+      console.log(dbWorkout);
+      res.json(dbWorkout);
+    })
+    .catch(err => {
+      res.status(500).json(err);
     });
 });
 
