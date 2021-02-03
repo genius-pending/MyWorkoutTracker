@@ -30,3 +30,11 @@ I contributed to this app with guidance from mongodb documentation in regards to
 No questions.
 ## genius-pending | shivey_khangura@hotmail.com
 ## ![img](https://avatars2.githubusercontent.com/u/67982777?v=4)
+
+![Intial screen](https://user-images.githubusercontent.com/67982777/106773533-1071e200-6639-11eb-965c-d04b379bea90.png)
+
+![add-exercise](https://user-images.githubusercontent.com/67982777/106773553-1667c300-6639-11eb-961f-3f6247a85ef6.jpg)
+
+![Workout summary](https://user-images.githubusercontent.com/67982777/106773561-1962b380-6639-11eb-8dc8-80d6e78de8bd.png)
+
+![Workout stats](https://user-images.githubusercontent.com/67982777/106773572-1c5da400-6639-11eb-8569-b37e54264c0f.png)
