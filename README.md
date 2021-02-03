@@ -31,10 +31,11 @@ No questions.
 ## genius-pending | shivey_khangura@hotmail.com
 ## ![img](https://avatars2.githubusercontent.com/u/67982777?v=4)
 
-![Intial screen](https://user-images.githubusercontent.com/67982777/106773533-1071e200-6639-11eb-965c-d04b379bea90.png)
+![add-exercise](https://user-images.githubusercontent.com/67982777/106774118-b45b8d80-6639-11eb-8947-80f5334dcc89.jpg)
 
-![add-exercise](https://user-images.githubusercontent.com/67982777/106773553-1667c300-6639-11eb-961f-3f6247a85ef6.jpg)
+![Intial screen](https://user-images.githubusercontent.com/67982777/106774125-b6255100-6639-11eb-84e9-f4528925c1e2.png)
 
-![Workout summary](https://user-images.githubusercontent.com/67982777/106773561-1962b380-6639-11eb-8dc8-80d6e78de8bd.png)
+![Workout summary](https://user-images.githubusercontent.com/67982777/106774166-c0dfe600-6639-11eb-969b-80dce908d8be.png)
 
-![Workout stats](https://user-images.githubusercontent.com/67982777/106773572-1c5da400-6639-11eb-8569-b37e54264c0f.png)
+![Workout stats](https://user-images.githubusercontent.com/67982777/106774132-b887ab00-6639-11eb-83ca-c2307767cabb.png)
+
