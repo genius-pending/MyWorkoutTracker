@@ -15,7 +15,7 @@
 ## Description
 The goal for this application was to create a full stack workout that will allowed me and other users to keep track of our workout regime during this difficult time of lockdown. I implemented using MongoDB and Mongoose schema for the database creation/management and Node.js, Express.js for handling routes. 
 ## Deployed Application
-Please click on the following link to access this application on the heroku cloud server https://git.heroku.com/boiling-cove-95586.git.
+Please click on the following link to access this application on the heroku cloud server https://boiling-cove-95586.herokuapp.com/
 ## Installation
 Download the repo then open in VS code run npm install to download all the dependancies and then run nodemon server. Then open your broswer and go to localhost:3000 in the search bar at the top of the browser . 
 ## Usage
