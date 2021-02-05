@@ -25,7 +25,8 @@ This application will be used to help aid me and other users keep a track of our
 ## Test
 No test is required for this application
 ## Contributors
-I contributed to this app with guidance from mongodb documentation in regards to aggregators and deployment to heroku.
+I contributed to this app with guidance from mongodb documentation in regards to aggregators,virtuals and deployment to heroku using mongoDB atlas 
+https://www.youtube.com/watch?v=imR9LlbG3pU.
 ## Questions
 No questions.
 ## genius-pending | shivey_khangura@hotmail.com
